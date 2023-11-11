@@ -1,4 +1,4 @@
-name: Update the container armstrong
+name: Update the container of armstrong
 
 on:
   push:
