@@ -31,4 +31,4 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: zahraha/docker_token_tp4:1.0.${{github.run_number}}
+          tags: zahraha/docker_tp4:1.0.${{github.run_number}}
