@@ -14,7 +14,8 @@ def armstrg(ch):
             else:
                  return 0
     except ValueError: 
-        print("Un erreur se produit.") 
+        return -1
+ #       print("Un erreur se produit.") 
 
 #fonction verification
 def verif(arg1):
@@ -27,5 +28,5 @@ def verif(arg1):
             else:
                 return False
     except ValueError: 
-        print("Un erreur se produit.") 
+#        print("Un erreur se produit.") 
         return False
