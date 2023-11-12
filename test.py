@@ -8,7 +8,7 @@ class Test(unittest.TestCase):
     """
 
     def test_valid0(self):
-        self.armstrg(armstrg.armstrg(0), 1)
+        self.armstrg.armstrg(armstrg.armstrg(0), 1)
 
     def test_valid1(self):
         self.armstrg(armstrg.armstrg("1"), 1)
