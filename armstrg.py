@@ -1,5 +1,5 @@
 
-#fonction d'armstrong
+#fonction d'armstrong modif
 def armstrg(ch):
     try:
         if verif(ch)== False:
@@ -7,14 +7,15 @@ def armstrg(ch):
         else:
             b=0
             for i in range(len(ch)):
-                b = b * int(ch[i])**3
-                print(b)
+                b = b + int(ch[i])**3
+#                print(b)
             if b == int(ch):
                 return 1   
             else:
                  return 0
     except ValueError: 
-        print("Un erreur se produit.") 
+        return -1
+ #       print("Un erreur se produit.") 
 
 #fonction verification
 def verif(arg1):
@@ -27,5 +28,5 @@ def verif(arg1):
             else:
                 return False
     except ValueError: 
-        print("Un erreur se produit.") 
+#        print("Un erreur se produit.") 
         return False
