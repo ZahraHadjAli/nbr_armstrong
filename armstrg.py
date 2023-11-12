@@ -8,7 +8,7 @@ def armstrg(ch):
             b=0
             for i in range(len(ch)):
                 b = b + int(ch[i])**3
-                print(b)
+#                print(b)
             if b == int(ch):
                 return 1   
             else:

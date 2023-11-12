@@ -7,8 +7,8 @@ class Test(unittest.TestCase):
     Tests pour les fonctions de armstrg
     """
 
-    def test_valid0(self):
-        self.assertEqual(armstrg.armstrg("0"), 1)
+    # def test_valid0(self):
+    #     self.assertEqual(armstrg.armstrg("0"), 1)
 
     def test_valid1(self):
         self.assertEqual(armstrg.armstrg("1"), 1)

@@ -16,7 +16,7 @@ def run_armstrg():
         if res == 1:
             print(term + " est un nombre d'Armstrong")
         else:
-            if res == 1 :
+            if res == 0 :
                 print("{} n'est pas un nombre d'Armstrong".format(term))
             else :
                 print("Un erreur se produit.") 
