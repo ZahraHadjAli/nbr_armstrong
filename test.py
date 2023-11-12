@@ -8,28 +8,28 @@ class Test(unittest.TestCase):
     """
 
     def test_valid0(self):
-        self.assertEqual(armstrg.armstrg(0), 1)
+        self.assertEqual(armstrg.armstrg("0"), 1)
 
     def test_valid1(self):
-        self.armstrg(armstrg.armstrg("1"), 1)
+        self.assertEqual(armstrg.armstrg("1"), 1)
 
     def test_valid153(self):
-        self.armstrg(armstrg.armstrg("153"), 1)
+        self.assertEqual(armstrg.armstrg("153"), 1)
 
     def test_valid371(self):
-        self.armstrg(armstrg.armstrg("371"), 1)
+        self.assertEqual(armstrg.armstrg("371"), 1)
 
     def test_valid407(self):
-        self.armstrg(armstrg.armstrg("407"), 1)
+        self.assertEqual(armstrg.armstrg("407"), 1)
 
     def test_valid555(self):
-        self.armstrg(armstrg.armstrg("555"), 0)
+        self.assertEqual(armstrg.armstrg("555"), 0)
 
     def test_valid6(self):
-        self.armstrg(armstrg.armstrg("6"), 0)
+        self.assertEqual(armstrg.armstrg("6"), 0)
 
     def test_valid905(self):
-        self.armstrg(armstrg.armstrg("905"), 0)
+        self.assertEqual(armstrg.armstrg("905"), 0)
 
 
     if __name__ == "__main__":
