@@ -7,7 +7,6 @@ import armstrg
 import sys
 
 print("Bienvenue dans notre programme.\n")
-
 def run_armstrg():
     term = input("Entrer un entier \n")
     res = armstrg.armstrg(term)
