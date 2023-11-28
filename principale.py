@@ -4,9 +4,9 @@ NB : un nombre positif est appelé un nombre d’Armstrong s’il est égal à l
 """
 
 import armstrg
-import sys
-print("Bienvenue dans notre programme.\n")
+import sy
 
+print("Bienvenue dans notre programme.\n")
 def run_armstrg():
     term = input("Entrer un entier \n")
     res = armstrg.armstrg(term)
