@@ -4,7 +4,7 @@ import armstrg
 
 class Test(unittest.TestCase):
     """
-    Tests pour les fonctions de armstrg
+    Tests pour les fonctions de armstrg ff
     """
 
     # def test_valid0(self):

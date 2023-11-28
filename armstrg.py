@@ -1,9 +1,9 @@
 
-#fonction d'armstrong modif  
+#fonction d'armstrong modif
 def armstrg(ch):
     try:
         if verif(ch)== False:
-            print("Le nombre non valide.")
+            print("Le nombre est non valide")
         else:
             b=0
             for i in range(len(ch)):
