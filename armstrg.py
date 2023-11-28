@@ -1,5 +1,5 @@
 
-#fonction d'armstrong modif
+#fonction d'armstrong modif 00000
 def armstrg(ch):
     try:
         if verif(ch)== False:
