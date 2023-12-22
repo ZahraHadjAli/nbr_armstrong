@@ -1,5 +1,5 @@
 
-#fonction d'armstrong modif test zahra
+#fonction d'armstrong modif
 def armstrg(ch):
     try:
         if verif(ch)== False:
