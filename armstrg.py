@@ -3,7 +3,7 @@
 def armstrg(ch):
     try:
         if verif(ch)== False:
-            print("Le nombre est invalide")
+            print("Le nombre est non valide")
         else:
             b=0
             for i in range(len(ch)):
